@@ -1,0 +1,471 @@
+/* =====================================================================
+                        comon-css-part-start
+======================================================================== */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,li,p{
+    padding: 0;
+    margin: 0;
+}
+/* =====================================================================
+                        comon-css-part-end
+======================================================================== */
+
+
+
+/* =====================================================================
+                        header-part-start
+======================================================================== */
+#header{
+    background: #ffffff;
+}
+
+.header-logo{
+    padding: 12px 0;
+}
+
+.header-text p{
+    color: #3ca2a2;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.header-number p{
+    color: #b76262;
+    font-size: 30px;
+    font-weight: 400;
+}
+/* =====================================================================
+                        header-part-end
+======================================================================== */
+
+
+
+/* =====================================================================
+                        nav-part-start
+======================================================================== */
+.main{
+    background: #c90711;
+}
+
+.main ul li a{
+    padding: 20px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    transition:  all linear 0.4s;
+    -webkit-transition:  all linear 0.4s;
+    -moz-transition:  all linear 0.4s;
+    -ms-transition:  all linear 0.4s;
+    -o-transition:  all linear 0.4s;
+    overflow: hidden;
+}
+
+.main ul li a:hover{
+    background: #f18d26;
+    color: #ffffff;
+}
+
+.icon i{
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #ffffff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	color: #c90711;
+    margin-right: 5px;
+}
+
+
+
+.main-menu{
+    background: rgb(155, 7, 7);
+}
+
+.main-menu ul li a{
+    color: #ffffff;
+    font-size: 16;
+    font-weight: 400;
+    font-family: serif;
+    padding: 20px 20px;
+}
+/* =====================================================================
+                        nav-part-end
+======================================================================== */
+
+
+
+/* =====================================================================
+                        banner-part-start
+======================================================================== */
+.banner-img{
+    padding: 75px 0;
+    position: relative;
+}
+
+.banner-text h2{
+    color: #215a6d;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.banner-text h2 span{
+    display: block;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.banner-text p {
+	color: #215a6d;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	padding-right: 146px;
+	padding-top: 10px;
+}
+
+.banner-text a {
+	padding: 15px 25px;
+	background: #92c7a3;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	border-radius: 10px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+    margin-top: 35px;
+}
+
+.man-img {
+	position: absolute;
+	right: 190px;
+	bottom: 0;
+}
+/* =====================================================================
+                        banner-part-end
+======================================================================== */
+
+
+
+/* =====================================================================
+                        find-part-start
+======================================================================== */
+#find{
+    padding: 48px 0 88px;
+}
+
+.fin-head h3{
+    color: #3ca2a2;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.fin-text p {
+	color: #215a6d;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	padding: 0 30px;
+    padding-top: 10px;
+}
+
+.fin-text a{
+    color: #3ca2a2;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+/* =====================================================================
+                        find-part-end
+======================================================================== */
+
+
+
+/* =====================================================================
+                        video-part-start
+======================================================================== */
+#video{
+    padding: 30px 0;
+    background: #dfece6;
+}
+
+.bord-head h3{
+    color: #215a6d;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+}
+
+.bord-head h3::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background: #ffffff;
+}
+
+.bord-head h3::before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 31px;
+	height: 2px;
+	width: 50px;
+	background: #b76262;
+	z-index: 2;
+}
+
+.bord-memu ul {
+    margin-top: 35px;
+}
+
+.bord-memu ul li{
+    line-height: 40px;
+    background-color: #ffffff;
+    padding-left: 15px;
+    border-bottom: 1px solid #1d7a99;
+    color: #3ca2a2;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bord-memu ul li:last-child{
+    border-bottom: 0;
+}
+
+.bord-memu ul li i {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	background: #b76262;
+	margin-left: 182px;
+}
+
+.bord-aa{
+    padding-top: 20px;
+}
+
+.bord-aa a{
+    color: #b76262;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.video-img {
+	margin-top: 35px;
+	width: 100%;
+}
+/* =====================================================================
+                        video-part-end
+======================================================================== */
+
+
+
+/* =====================================================================
+                        gall-part-start
+======================================================================== */
+#gall{
+    padding:60px 0;
+}
+
+.bord-head2 h3{
+    color: #215a6d;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+}
+
+.bord-head2 h3::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background: #1d7a99;
+}
+
+.bord-head2 h3::before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 31px;
+	height: 2px;
+	width: 50px;
+	background: #b76262;
+	z-index: 2;
+}
+
+.new-text1 h3{
+    color: #3ca2a2;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.new-text1 p{
+    color:#215a6d;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+}
+
+.new-text1 p::after {
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: -30px;
+	height: 1px;
+	width: 100%;
+	background: #1d7a99;
+}
+
+.new-text2 h3{
+    color: #3ca2a2;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.new-text2 p{
+    color:#215a6d;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ser-text ul{
+    margin-top: 40px;
+}
+
+.photo ul{
+    margin-top: 40px;
+}
+
+.photo ul li{
+    color: #215a6d;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-right: 28px;
+    margin-bottom: 10px;
+}
+
+.photo ul li:nth-child(2),
+.photo ul li:last-child{
+    margin-right: 0;
+}
+/* =====================================================================
+                        gall-part-end
+======================================================================== */
+
+
+
+/* =====================================================================
+                        doctor-part-start
+======================================================================== */
+#doctor{
+    padding: 60px 0;
+}
+
+.doc-img{
+    margin-top: 30px;
+}
+
+.doc-text{
+    padding: 15px 0;
+}
+
+.doc-text h3{
+    color: #3ca2a2;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.doc-text h4{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.doc-text p{
+    color: #dd0505;
+    font-size: 12px;
+    font-weight: 400; 
+}
+/* =====================================================================
+                        doctor-part-end
+======================================================================== */
+
+
+
+/* =====================================================================
+                        footer-part-start
+======================================================================== */
+.foot-top{
+    padding: 15px 0 40px;
+    background: #222222;
+}
+
+.fot-po p{
+    color: #3ca2a2;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 85px;
+}
+
+.foot-bottom{
+    padding: 20px 0;
+    background: #dd0505;
+}
+
+.fot-bot p{
+    color:#dfece6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ff h3{
+    color: #1d7a99;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fot-text ul li{
+    color: #c6ded9;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* =====================================================================
+                        footer-part-end
+======================================================================== */
